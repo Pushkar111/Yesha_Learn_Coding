@@ -1,0 +1,35 @@
+
+-------------------------------------------
+        Basic Of C Language
+-------------------------------------------
+
+=> Documentation: Section 
+
+#include<>  --> This is known as header file section also 
+    -> Where , #        => Pre processor
+               include  => Directory 
+               <>       => File name written in <> brackets
+ex...
+    1. #include <stdio.h>
+    2. #include <conio.h>
+
+Example Program:- 
+
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    printf("hello world");
+
+    printf("\nI am persuing Btech in CSE");
+    return 0;
+}
+
+Explanation:- 
+------------
+        1. main()   --> Function 
+        2. printf() --> Function - It is used to print something on console(output screen / Terminal)
+        3. \n       --> new line 
+        4. \t       --> tab
+
